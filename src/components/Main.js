@@ -4,7 +4,7 @@ export default class Main extends Component {
     render() {
         return (
             <div className="main">
-                <div className="hm-1" style={{position:"sticky",top:"5px"}}>Home</div>
+                <div className="hm-1">Home</div>
                 <div className="hm">
                 <div className="crl">  <i className="fa fa-user-circle-o" style={{fontSize:"2em",opacity:"0.7",padding:"0.7em"}}></i> What's Happening?</div>          
                 <div className="st">

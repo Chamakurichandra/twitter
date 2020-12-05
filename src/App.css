@@ -92,10 +92,15 @@
 .inpt{
   width: 80%;
   padding: 0.5em 0;
-  border-radius:5%;
+  border-bottom-left-radius: 10%;
+  border-top-left-radius:10% ;
   background-color:gainsboro;
   border: none;
   margin: 1em 0;
+  border-left: none;
+  margin-left: 0;
+  padding-left: 0%;
+  margin-bottom: 1em !important;
 }
 .sm{
   background-color: lightblue;
@@ -113,6 +118,7 @@ dl dd{
   margin-right: 2em;
   margin-top: 1em;
   opacity: 0.8;
+  border-radius: 10%;
 }
 .flw{
   width: 60px;
@@ -127,4 +133,11 @@ dl dd{
 .folbtn{
   border-radius: 30%;
   margin-top: 0.7em;
+}
+.srch{
+  margin-top: 1em;
+  background-color:gainsboro;
+  padding: 0.7em;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
 }
